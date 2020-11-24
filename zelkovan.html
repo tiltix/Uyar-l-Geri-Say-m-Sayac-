@@ -44,7 +44,7 @@
         $('#baslat').click(()=>{
 		      $('#baslat').attr('value','Yeniden Başlat');
           document.getElementById('uyari').innerHTML = '';
-          saniye = 55 * 3;
+          saniye = 60 * 15;
           window.clearInterval(deger);
 		  deger=window.setInterval('saniyeBaslat()',1000);
         })
